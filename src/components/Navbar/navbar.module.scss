@@ -1,0 +1,90 @@
+@import 'src/utils/constants.scss';
+@import 'src/utils/mediaQuery.scss';
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  .container {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    padding: 10px 20px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    width: 40px;
+  }
+
+  .links {
+    display: flex;
+    gap: 20px;
+    transition: .3s;
+
+    @include sm {
+      display: none;
+    }
+
+    .link {
+      color: $primary;
+
+      &:hover {
+        opacity: .7;
+      }
+    }
+
+    .link.active {
+      color: $secondary;
+    }
+  }
+}
+
+.menu {
+  position: relative;
+  display: none;
+
+  @include sm {
+    display: block;
+  }
+
+  .menuIcon {
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    transition: .5s;
+  }
+
+  .menuList {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    transform: translateX(135%);
+    opacity: 0;
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+  }
+
+  .menuList.active {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+  
+}

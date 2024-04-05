@@ -14,7 +14,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div>
+      <div className="main">
         <div>
           <Navbar />
           <Hero />
