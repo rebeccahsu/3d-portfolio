@@ -1,0 +1,11 @@
+Model Information:
+* title:	french-toast
+* source:	https://sketchfab.com/3d-models/french-toast-f1dadb4f59b24c4aa32b014ef589e32f
+* author:	hanjisung42698 (https://sketchfab.com/hanjisung42698)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "french-toast" (https://sketchfab.com/3d-models/french-toast-f1dadb4f59b24c4aa32b014ef589e32f) by hanjisung42698 (https://sketchfab.com/hanjisung42698) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
